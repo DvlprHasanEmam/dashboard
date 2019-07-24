@@ -1,0 +1,161 @@
+
+@media screen and (max-width: 1019px) and (min-width: 600px){
+
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-6  {
+        width: 50%;
+    }
+
+    .col-md-9  {
+        width: 75%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+
+    .item-center {
+        flex-direction: column;
+        border:none;
+    }
+
+    .monthly-revenu-chart{
+        margin-right: 0;
+    }
+
+    .header-left-3-icons{
+        border: 1px solid #f1f1f1;
+        height: 70px;
+        align-items: center;
+        display: flex;
+    }
+
+    .customer-feedback{
+
+        margin-bottom: 20px;
+
+    }
+
+    .search-input-icon{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .serarch-mini-icon{
+        display: none;
+    }
+
+    .header-right-icons {
+        border: 1px solid #f1f1f1;
+    }
+
+    .total-mid-content{
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    .aside-right{
+
+        justify-content: center;
+    }
+
+    .revenu-hour-chart-small{
+
+        margin-left: 20px;
+    }
+
+    .todays-task{
+        margin-top: 0;
+    }
+
+    .small-img-chart img{
+        width: 50%;
+        height: auto;
+    }
+
+    .responsive-customer-feedback{
+        min-width: 600px;
+    }
+
+}
+
+
+@media screen and (max-width: 699px){
+
+    .col-sm-3{
+        width: 25%;
+    }
+
+    .col-sm-6  {
+        width: 50%;
+    }
+
+    .col-sm-9  {
+        width: 75%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .item-center {
+        flex-direction: column;
+        border:none;
+    }
+
+    .monthly-revenu-chart{
+        margin-right: 0;
+    }
+
+    .header-left-3-icons{
+        border: 1px solid #f1f1f1;
+        height: 70px;
+        align-items: center;
+        display: flex;
+    }
+
+    .customer-feedback{
+        margin-bottom: 20px;
+    }
+
+    .search-input-icon{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .serarch-mini-icon{
+        display: none;
+    }
+
+    .header-right-icons {
+        border: 1px solid #f1f1f1;
+    }
+
+    .total-mid-content{
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    .aside-right{
+        justify-content: center;
+    }
+
+    .revenu-hour-chart-small{
+        margin-left: 20px;
+    }
+
+    .small-img-chart img{
+        width: 50%;
+        height: auto;
+    }
+
+    .responsive-customer-feedback{
+        min-width: 600px;
+    }
+}
+
+
+
