@@ -35,6 +35,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1365px;
+    min-width: 1024px;
     display: flex;
     background-color: white;
 }
@@ -92,16 +93,16 @@ a{
     padding-top: 20px;
     padding-bottom: 20px;
     color : white;
-    
+
 }
 
 .home a, .statistic a, .user a, .setting a, .quires a {
-    
+
     padding-bottom: 10px;
 }
 
 .home a i, .statistic a i, .user a i, .setting a i, .quires a i {
-    
+
     padding-bottom: 10px;
     color: white;
     font-size: 20px;
@@ -149,7 +150,7 @@ a{
 }
 
 .serarch-mini-icon {
-    display: none;  
+    display: none;
 }
 
 
@@ -164,7 +165,7 @@ a{
 
 .text-menu{
     padding-left: 20px;
-    display: flex;    
+    display: flex;
 }
 
 .mini-icon{
@@ -195,15 +196,15 @@ a{
     padding-bottom: 20px;
 }
 
-   .daily-visitors,
-   .daily-customers,
-   .daily-sales,
-   .daily-orders,
-   .daily-shipments,
-   .daily-revenu,
-   .daily-review{
-       padding: 10px;
-   }
+.daily-visitors,
+.daily-customers,
+.daily-sales,
+.daily-orders,
+.daily-shipments,
+.daily-revenu,
+.daily-review{
+    padding: 10px;
+}
 
 
 .daily {
@@ -240,7 +241,7 @@ a{
     color: #f76562;
     font-size:13px;
     vertical-align: super;
-    padding-right: 5px;    
+    padding-right: 5px;
 }
 
 .add-statistic {
@@ -304,8 +305,8 @@ a{
 }
 
 .big-chart-image img {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -404,11 +405,20 @@ a{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid rgb(237,237,237);
-    padding: 10px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
+
+
+.product-status .common-hover:nth-child(2n){
+    background-color: #fcfcfc;
+}
+
 
 .custom-radio {
     position: relative;
+    flex: none;
 
 }
 
@@ -426,6 +436,8 @@ a{
     font-weight: bold;
     color: #777777;
     font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .custom-radio label::before {
@@ -454,7 +466,7 @@ a{
 }
 
 .custom-radio input:checked + label {
-  color: rgb(252,102,100);
+    color: rgb(252,102,100);
 }
 
 .watch-time, .watch-time i {
@@ -470,10 +482,12 @@ a{
     font-size: 12px;
     padding-left: 15px;
     padding-right: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .progress {
-
     margin-top: 0;
 }
 
@@ -535,11 +549,13 @@ a{
 }
 .aside-right-header ul {
     display: flex;
-    justify-content: space-between;
+    flex-grow: 1;
+    justify-content: space-around;
+
 }
 
 .aside-right-header ul li {
-    padding: 15px 35px;
+    padding: 15px 42px;
 }
 
 .aside-right-header ul li a {
@@ -635,10 +651,18 @@ a{
 
 }
 
-.weather-time img {
-    width: 100%;
-    height: auto;
+.time-block{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
 }
+
+
 
 
 

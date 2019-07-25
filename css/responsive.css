@@ -1,161 +1,115 @@
 
-@media screen and (max-width: 1019px) and (min-width: 600px){
-
-    .col-md-3{
-        width: 25%;
-    }
-    .col-md-6  {
-        width: 50%;
-    }
-
-    .col-md-9  {
-        width: 75%;
-    }
-
-    .col-md-12 {
-        width: 100%;
-    }
-
-
-    .item-center {
-        flex-direction: column;
-        border:none;
-    }
-
-    .monthly-revenu-chart{
-        margin-right: 0;
-    }
-
-    .header-left-3-icons{
-        border: 1px solid #f1f1f1;
-        height: 70px;
-        align-items: center;
-        display: flex;
-    }
-
-    .customer-feedback{
-
-        margin-bottom: 20px;
-
-    }
-
-    .search-input-icon{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .serarch-mini-icon{
-        display: none;
-    }
-
-    .header-right-icons {
-        border: 1px solid #f1f1f1;
-    }
-
-    .total-mid-content{
-        flex-direction: column;
-        padding-right: 20px;
-    }
-
-    .aside-right{
-
-        justify-content: center;
-    }
-
-    .revenu-hour-chart-small{
-
-        margin-left: 20px;
-    }
-
-    .todays-task{
-        margin-top: 0;
-    }
-
-    .small-img-chart img{
-        width: 50%;
-        height: auto;
-    }
-
-    .responsive-customer-feedback{
-        min-width: 600px;
-    }
-
-}
-
-
-@media screen and (max-width: 699px){
-
-    .col-sm-3{
-        width: 25%;
-    }
-
-    .col-sm-6  {
-        width: 50%;
-    }
-
-    .col-sm-9  {
-        width: 75%;
-    }
-
-    .col-sm-12 {
-        width: 100%;
-    }
-
-    .item-center {
-        flex-direction: column;
-        border:none;
-    }
-
-    .monthly-revenu-chart{
-        margin-right: 0;
-    }
-
-    .header-left-3-icons{
-        border: 1px solid #f1f1f1;
-        height: 70px;
-        align-items: center;
-        display: flex;
-    }
-
-    .customer-feedback{
-        margin-bottom: 20px;
-    }
-
-    .search-input-icon{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .serarch-mini-icon{
-        display: none;
-    }
-
-    .header-right-icons {
-        border: 1px solid #f1f1f1;
-    }
-
-    .total-mid-content{
-        flex-direction: column;
-        padding-right: 20px;
-    }
-
-    .aside-right{
-        justify-content: center;
-    }
-
-    .revenu-hour-chart-small{
-        margin-left: 20px;
-    }
-
-    .small-img-chart img{
-        width: 50%;
-        height: auto;
-    }
-
-    .responsive-customer-feedback{
-        min-width: 600px;
+@media screen and (max-width: 1244px){
+    .progress{
+        height: 95%;
     }
 }
 
+@media screen and (min-width:1024px) and (max-width: 1222px){
 
+    .responsive-progress-bar{
+        flex-direction: column;
+    }
+
+    .aside-right-header ul li {
+        padding: 15px 28px;
+    }
+
+    .comentor-name {
+        flex: auto;
+        padding-left: 15px;
+        padding-right: 7px;
+
+    }
+
+    .custom-radio label {
+        font-size: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+
+    }
+
+    .weather-time{
+        height: 342px;
+    }
+
+    .customer-feedback{
+        height: 95%;
+    }
+
+    .custom-radio label {
+        font-size: 11px;
+    }
+
+    .dummy-text {
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 138px;
+
+    }
+
+    .watch-time, .watch-time i {
+        font-size: 9px;
+    }
+
+    .arrange, .shipment, .make-list, .review{
+        padding-left: 0;
+    }
+
+    .person{
+        flex: none;
+    }
+
+    .comments-icon{
+        flex: none;
+    }
+
+    .commentor-title{
+        white-space: nowrap;
+        width: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border: 1px solid #000000;
+    }
+
+    .progress-image{
+        text-align: center;
+    }
+
+    .progress-image img {
+
+        width: 50%;
+        height: auto;
+
+    }
+
+    .progress-shipment{
+        _height: 387px;
+    }
+
+    .progress{
+        width: 190%;
+    }
+
+    .progress-header {
+        padding-bottom: 10px;
+    }
+
+    .progress-number{
+        display: inline-block;
+    }
+
+    .progress-icon{
+        display: inline-block;
+        padding-left: 90px;
+    }
+
+    .shipment-number{
+        font-size: 20px;
+    }
+
+
+
+}
 
